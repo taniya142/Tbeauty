@@ -1,0 +1,543 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 3966
+>>
+stream
+BT
+/TT2 1 Tf
+0 10 -10 0 35.6667 29 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(LayoutActivity.java)-22997.4(spawrks 09/18/14)-29598.4(1-1/1\(1\))]TJ
+/TT4 1 Tf
+2.5 -1.6333 TD
+(1:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(package)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( com.delta.layouts;)Tj
+-6 -1.1 TD
+(2:)Tj
+T*
+(3:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.app.Activity;)Tj
+-5.4 -1.1 TD
+(4:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.os.Bundle;)Tj
+-5.4 -1.1 TD
+(5:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.view.Menu;)Tj
+-5.4 -1.1 TD
+(6:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(import)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( android.view.MenuItem;)Tj
+-5.4 -1.1 TD
+(7:)Tj
+T*
+(8:)Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+1.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(class)Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+( LayoutActivity )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(extends)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( Activity {)Tj
+-22.8 -1.1 TD
+(9:)Tj
+-0.6 -1.1 TD
+[(10:)-599.7(    @Override)]TJ
+T*
+[(11:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(protected)Tj
+/TT4 1 Tf
+0 g
+5.4 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(void)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+( onCreate\(Bundle savedInstanceState\) {)Tj
+-13.2 -1.1 TD
+[(12:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(super)Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+(.onCreate\(savedInstanceState\);)Tj
+-10.2 -1.1 TD
+[(13:)-599.7(        setContentView\(R.layout.activity_layout\);)]TJ
+T*
+[(14:)-599.7(    })]TJ
+T*
+(15:)Tj
+T*
+(16:)Tj
+T*
+[(17:)-599.7(    @Override)]TJ
+T*
+[(18:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(boolean)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( onCreateOptionsMenu\(Menu menu\) {)Tj
+-13.2 -1.1 TD
+[(19:)-599.7(        )]TJ
+T*
+[(20:)-599.7(        )]TJ
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+7.2 0 TD
+(// Inflate the menu; this adds items to the action bar if it is present.)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(21:)Tj
+0 g
+2.4 0 TD
+(        getMenuInflater\(\).inflate\(R.menu.layout, menu\);)Tj
+-2.4 -1.1 TD
+[(22:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(return)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(true)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(;)Tj
+-13.8 -1.1 TD
+[(23:)-599.7(    })]TJ
+T*
+(24:)Tj
+T*
+[(25:)-599.7(    @Override)]TJ
+T*
+[(26:)-599.7(    )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(public)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(boolean)Tj
+/TT4 1 Tf
+0 g
+4.2 0 TD
+( onOptionsItemSelected\(MenuItem item\) {)Tj
+-13.2 -1.1 TD
+[(27:)-599.7(        )]TJ
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+7.2 0 TD
+(// Handle action bar item clicks here. The action bar will)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(28:)Tj
+0 g
+2.4 0 TD
+(        )Tj
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+4.8 0 TD
+(// automatically handle clicks on the Home/Up button, so long)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(29:)Tj
+0 g
+2.4 0 TD
+(        )Tj
+/TT6 1 Tf
+0.698 0.133 0.133 rg
+4.8 0 TD
+(// as you specify a parent activity in AndroidManifest.xml.)Tj
+/TT4 1 Tf
+-7.2 -1.1 TD
+(30:)Tj
+0 g
+2.4 0 TD
+(        )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+4.8 0 TD
+(int)Tj
+/TT4 1 Tf
+0 g
+1.8 0 TD
+( id = item.getItemId\(\);)Tj
+-9 -1.1 TD
+[(31:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(if)Tj
+/TT4 1 Tf
+0 g
+1.2 0 TD
+( \(id == R.id.action_settings\) {)Tj
+-8.4 -1.1 TD
+[(32:)-599.7(            )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+9.6 0 TD
+(return)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(true)Tj
+/TT4 1 Tf
+0 g
+2.4 0 TD
+(;)Tj
+-16.2 -1.1 TD
+[(33:)-599.7(        })]TJ
+T*
+[(34:)-599.7(        )]TJ
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+7.2 0 TD
+(return)Tj
+/TT4 1 Tf
+0 g
+3.6 0 TD
+( )Tj
+/TT2 1 Tf
+0.627 0.125 0.941 rg
+0.6 0 TD
+(super)Tj
+/TT4 1 Tf
+0 g
+3 0 TD
+(.onOptionsItemSelected\(item\);)Tj
+-14.4 -1.1 TD
+[(35:)-599.7(    })]TJ
+T*
+(36:)Tj
+T*
+[(37:)-599.7(})]TJ
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+10 0 obj
+<<
+/Length 263
+>>
+stream
+BT
+/TT2 1 Tf
+0 10 -10 0 35.6667 29 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(Table of Contents)-24197.6(spawrks 09/18/14)-30198.5(-1/1\(2\))]TJ
+/TT4 1 Tf
+0 -1.6333 TD
+(  1 layouts/src/main/java/com/delta/layouts/LayoutActivity.java   1 pages   37 lines  14/02/24 11:37:02)Tj
+ET
+endstream
+endobj
+11 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+7 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+12 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 262179
+/FontBBox [-113 -250 749 801]
+/FontName /Courier-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 439
+/StemH 84
+>>
+endobj
+13 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+14 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 99
+/FontBBox [-28 -250 742 805]
+/FontName /Courier-Oblique
+/ItalicAngle -15
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 121
+/Widths [600 0 0 0 0 0 0 0 600 600 0 0 0 600 600 600 
+600 600 600 0 600 0 0 0 600 600 0 0 0 0 0 0 
+0 600 0 600 0 0 0 0 0 0 0 0 600 0 0 0 
+0 0 0 0 600 0 0 0 0 0 0 0 0 0 0 0 
+0 600 600 600 600 600 600 600 0 600 600 600 600 600 600 600 
+600 0 600 600 600 600 600 600 600 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Bold
+/FontDescriptor 12 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 125
+/Widths [600 0 0 0 0 0 0 0 600 600 0 0 600 0 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 0 600 0 0 
+600 600 600 600 0 0 0 0 0 600 0 0 600 600 0 600 
+0 0 600 600 0 0 600 0 0 0 0 0 0 0 0 600 
+0 600 0 600 600 600 600 600 0 600 600 0 600 600 600 600 
+600 0 600 600 600 600 600 600 0 600 0 600 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 13 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 121
+/Widths [600 0 0 0 0 0 0 0 0 0 0 0 600 0 600 600 
+0 0 0 0 0 0 0 0 0 0 0 600 0 0 0 0 
+0 600 0 0 0 0 0 0 600 600 0 0 0 600 0 0 
+0 0 0 0 600 600 0 0 0 0 0 0 0 0 0 0 
+0 600 600 600 600 600 600 600 600 600 0 600 600 600 600 600 
+600 0 600 600 600 600 600 600 600 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier-Oblique
+/FontDescriptor 14 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 11 0 R
+/Contents 10 0 R
+>>
+endobj
+15 0 obj
+<<
+/S /D
+>>
+endobj
+16 0 obj
+<<
+/Nums [0 15 0 R ]
+>>
+endobj
+8 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 9 0 R]
+/Count 2
+/Rotate 90
+/MediaBox [0 0 595 842]
+>>
+endobj
+17 0 obj
+<<
+/CreationDate (D:20140918201906-05'00')
+/ModDate (D:20140918201906-05'00')
+/Producer (Apple pstopdf)
+>>
+endobj
+18 0 obj
+<<
+/Type /Catalog
+/Pages 8 0 R
+/PageLabels 16 0 R
+>>
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000006615 00000 n 
+0000000016 00000 n 
+0000004034 00000 n 
+0000005307 00000 n 
+0000005735 00000 n 
+0000006194 00000 n 
+0000004573 00000 n 
+0000006845 00000 n 
+0000006695 00000 n 
+0000004151 00000 n 
+0000004466 00000 n 
+0000004713 00000 n 
+0000004915 00000 n 
+0000005106 00000 n 
+0000006777 00000 n 
+0000006805 00000 n 
+0000006943 00000 n 
+0000007066 00000 n 
+trailer
+<<
+/Size 19
+/Root 18 0 R
+/Info 17 0 R
+/ID [<6ef749be5e7245e075ff5aca5915c73e><6ef749be5e7245e075ff5aca5915c73e>]
+>>
+startxref
+7135
+%%EOF
