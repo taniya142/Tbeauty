@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="General">
+        <menu>
+
+            <item
+                android:icon="@drawable/ic_baseline_card_travel_24"
+                android:id="@+id/home"
+                android:title="My Orders" />
+            <item
+                android:icon="@drawable/ic_baseline_assignment_24"
+                android:id="@+id/Quiz"
+                android:title="My Wishlist" />
+
+
+        </menu>
+    </item>
+
+
+</menu>

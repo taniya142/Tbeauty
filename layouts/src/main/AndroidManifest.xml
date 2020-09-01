@@ -4,18 +4,40 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:label="Tan Beauty"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.delta.layouts.LayoutActivity"
-            android:label="@string/app_name" >
+            android:name=".LayoutActivity"
+            android:label="TBeauty"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".LayoutActivity2"
+            android:label="Eyes delta layout"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".Layout3"
+            android:label="Lips delta layout"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".Layout4"
+        android:label="Skin delta layout"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".Layout5"
+            android:label="Brands layout"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
     </application>
 
 </manifest>

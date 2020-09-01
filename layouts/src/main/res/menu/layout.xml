@@ -1,9 +1,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.delta.layouts.LayoutActivity" >
-    
+    tools:context="com.delta.layouts">
+
+
     <item android:id="@+id/action_settings"
-        android:title="@string/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never" />
+        android:title="Settings"
+        android:orderInCategory="1"
+        app:showAsAction=""/>
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="?attr/actionModeShareDrawable"
+        android:orderInCategory="1"
+        android:title="Share"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="?android:attr/actionModeWebSearchDrawable"
+        android:title="searchBrand"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView">
+
+    </item>
 </menu>

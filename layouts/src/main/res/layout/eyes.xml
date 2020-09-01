@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ee918d">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/drawer_toolbar"/>
+
+    <TextView
+        android:layout_below="@+id/centerText"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30sp"
+        android:text="* Kajal"
+        android:textSize="30sp"
+        android:textColor="#264653"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@+id/centerText"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30sp"
+        android:text="* Eye liner"
+        android:textSize="30sp"
+        android:textColor="#264653"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@+id/centerText"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="30sp"
+        android:text="* Mascara"
+        android:textSize="30sp"
+        android:textColor="#264653"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@+id/centerText"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30sp"
+        android:text="* Eye shadow"
+        android:textSize="30sp"
+        android:textColor="#264653"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/centerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="65dp"
+        android:text="EYE MAKEUP ESSENTIALS"
+        android:textColor="#264653"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:src="@drawable/eyesss"
+        android:layout_marginTop="400dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
